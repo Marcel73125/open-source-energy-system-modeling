@@ -35,6 +35,6 @@ def printglucoselevel(g_init, time_hours):
             result_value_2 = sol_2.subs({k: k_value, t: time_hours}) # .subs substitutes the symbols k with the defined k_value and t with handed over time value
             display(result_value_2) #print solution at given time value;   #example: g_init=80, k=0.0045, t=10,  g(10)=79.559974818331
 
-            p1 = plot(sol_2.rhs.subs({k: k_value}), (t, 0, time_hours*60), xlabel='t in [min]', ylabel='Glucoselevel in [mg/dl]',axis_center=(0,70.5)) #plots glucose level in the interval [0,time]
+            plot(sol_2.rhs.subs({k: k_value}), (t, 0, time_hours*60), xlabel='t in [min]', ylabel='Glucoselevel in [mg/dl]',axis_center=(0,70.5)) #plots glucose level in the interval [0,time]
             return 0
     return -1
