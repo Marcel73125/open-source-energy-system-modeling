@@ -24,6 +24,7 @@ jobs:
 
     - name: Install dependencies
       run: pip install pytest
+      run: pip install sympy
 
     - name: Test with pytest
       run: pytest
