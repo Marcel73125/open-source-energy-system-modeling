@@ -6,3 +6,6 @@ This is the first homework for the open-source energy system modelling course at
 
 The repository is licensed under the Apache License, Version 2.0 (the "License");
 see LICENSE for details.
+
+The function glucoselevel calculates the glucose level at the handed over time with the given positive initial glucose level and returns that value; 
+If the input initial glucose level is negative the function returns -1;
