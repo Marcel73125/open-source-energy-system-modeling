@@ -1,4 +1,4 @@
-from sympy import symbols, dsolve, Eq, plot, Function
+from sympy import symbols, dsolve, Eq, Function
 from IPython.display import display
 
 #the function glucoselevel calculates the glucose level at the handed over time with the given initial glucose level and returns that value; 
