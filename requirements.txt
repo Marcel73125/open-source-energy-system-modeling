@@ -1,2 +1,3 @@
-from sympy import symbols, dsolve, Eq, plot, Function
-from IPython.display import display
+pytest
+sympy
+ruff
