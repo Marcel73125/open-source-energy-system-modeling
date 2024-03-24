@@ -23,8 +23,7 @@ jobs:
         python-version: 3.12
 
     - name: Install dependencies
-      run: pip install pytest
-      run: pip install sympy
+      run: pip install -r requirements.txt
 
     - name: Test with pytest
       run: pytest
