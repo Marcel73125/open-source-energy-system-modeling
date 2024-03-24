@@ -1,3 +1,6 @@
+from sympy import symbols, dsolve, Eq, plot, Function
+from IPython.display import display
+
 #the function glucoselevel calculates the glucose level at the handed over time with the given initial glucose level and returns that value; 
 # returns -1 if input value g_init is negative
 def glucoselevel(g_init, time): #g_init = initial glucose level in mg/dl;  #time in min
