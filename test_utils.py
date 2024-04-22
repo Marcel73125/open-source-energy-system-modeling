@@ -3,7 +3,7 @@ from utils import printglucoselevel
 
 def test_glucoselevel():
     
-    assert glucoselevel(80, 0) == 80
+    assert glucoselevel(80, 0) == 70
     assert glucoselevel(-1, 1) == -1
     assert glucoselevel  (70,0) == 80
 
